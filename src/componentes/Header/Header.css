@@ -1,0 +1,60 @@
+nav {
+    background-color: #FFFAF0; 
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 1; /* Permite que el logo crezca en el espacio disponible */
+    cursor: pointer;
+}
+
+.logo h1 {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF6B6B; 
+}
+.logo h1:hover{
+    color: #6DBE45; /* Cambia de color al pasar el mouse */
+    
+     
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: start;
+    flex-grow: 1;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    width: 100%;
+}
+
+.item {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    color: #6DBE45; /* Verde fresco */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.item:hover {
+    color: #FF6B6B; 
+    transform: translateY(-5px);
+}

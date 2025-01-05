@@ -1,0 +1,55 @@
+/* RecipeCard.css */
+
+.recipe-card {
+    background-color: #ffffff; /* Fondo blanco para destacar */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    width: 300px; /* Tamaño fijo */
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más fuerte */
+  }
+  
+  .recipe-card h3 {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Título oscuro */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .recipe-card ul {
+    list-style-type: disc;
+    padding-left: 20px; /* Espaciado para las viñetas */
+    margin-bottom: 15px;
+  }
+  
+  .recipe-card ul li {
+    font-size: 1rem;
+    color: #555; /* Texto de color gris */
+    margin-bottom: 5px;
+  }
+  
+  .recipe-card .delete-button {
+    display: block;
+    background-color: #ff4b5c; /* Rojo vibrante */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .recipe-card .delete-button:hover {
+    background-color: #e63946; /* Rojo más oscuro al pasar el mouse */
+  }
+  

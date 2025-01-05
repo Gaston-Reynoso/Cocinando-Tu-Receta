@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+  
+  footer {
+    margin-top: auto; /* Empuja el footer hacia el final */
+  }
+  

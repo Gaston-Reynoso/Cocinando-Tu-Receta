@@ -1,0 +1,32 @@
+.create-recipe {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Fondo claro */
+    background-image: url("./Image/ingredientes3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FF4B5C; /* Rojo vibrante */
+  }
+  
+  .create-recipe-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Adaptación para pantallas pequeñas */
+    
+  }
+  
+  @media (max-width: 768px) {
+    .create-recipe-container {
+      flex-direction: column;
+    }
+  }
+  
